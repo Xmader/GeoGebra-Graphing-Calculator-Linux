@@ -1,0 +1,22 @@
+{
+  "name": "geogebra",
+  "private": true,
+  "version": "6.0.377",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-packager": "^8.1.0",
+    "electron-rebuild": "~1.8.2",
+    "file-system": "~2.2.2",
+    "giac": "^1.23.66583"
+  },
+  "dependencies": {
+    "electron-config": "^0.2.1",
+    "electron-storage": "^1.0.6",
+    "windows-shortcuts": "^0.1.6",
+    "lcid": "^1.0.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
